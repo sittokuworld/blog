@@ -1,0 +1,57 @@
+body{
+       background-color:#ffffff;
+       color:000000
+}
+header{
+       position:relative;
+}
+.catch{
+       position:absolute;
+       top:20px;
+       left:30px;
+       color:#ffffff;
+}
+p{
+       font-size:90%;
+}
+h1{
+       font-size:180%;
+}
+h2{
+       font-size:150%;
+       border-bottom:1px dashed #000000;
+       border-left:10px solid #000000;
+}
+nav ul{
+       font-weight:bold;
+}
+a:hover{
+       color:#0000ff;
+}
+a:visited{
+       color:#ff0000;
+}
+
+/* 959px以下の場合 */
+@media(max-width:959px){
+header img{
+       max-width:100%;
+       height:auto;
+}
+article{
+       width:auto;
+}
+}
+
+/* 600px以下の場合 */
+@media(max-width:600px){
+header{
+       font-size:75%;
+       padding-left:2px;
+       padding-right:2px;
+}
+nav li{
+       font-size:75%;
+       padding-left:2px;
+       padding-right:2px;
+}
